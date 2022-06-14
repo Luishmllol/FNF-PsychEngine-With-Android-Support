@@ -377,9 +377,9 @@ class FreeplayState extends MusicBeatState
 			}
 			
 			if (FlxG.keys.pressed.SHIFT){
-				LoadingState.loadAndSwitchState(new ChartingState());
+				LoadingState.CharSelectState(new ChartingState());
 			}else{
-				LoadingState.loadAndSwitchState(new CharSelectState());
+				LoadingState.CharSelectState(new CharSelectState());
 			}
 
 			FlxG.sound.music.volume = 0;

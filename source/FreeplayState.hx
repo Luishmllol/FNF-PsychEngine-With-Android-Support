@@ -377,7 +377,7 @@ class FreeplayState extends MusicBeatState
 			}
 			
 			if (FlxG.keys.pressed.SHIFT){
-				LoadingState.CharSelectState(new ChartingState());
+				LoadingState.ChartingState(new ChartingState());
 			}else{
 				LoadingState.CharSelectState(new CharSelectState());
 			}
